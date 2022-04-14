@@ -1,3 +1,6 @@
+// @author Oskar
+// @version 1.0
+
 package cuentas;
 
 public class CCuenta {
@@ -11,9 +14,10 @@ public class CCuenta {
     public CCuenta()
     {
     }
-
+    
     public CCuenta(String nom, String cue, double sal, double tipo)
     {
+        //@param cue recibe el nombre de la cuenta
         nombre =nom;
         cuenta=cue;
         saldo=sal;
